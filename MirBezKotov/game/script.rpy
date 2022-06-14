@@ -29,6 +29,63 @@ label start:
 
     a "Зрителям не похуй на меня!"
 
-    a "Вообщем все было так..."
+    menu:
+        a "Мотя ты чо пидр?"
+
+        "Нет ты чо ахуел?":
+            jump ti_pidor
+
+        "Да":
+            jump pizda
+
+label ti_pidor:
+        a "А мне кажется что ты хуесос ебливый жырный уебан"
+        jump dialog_yeban
+
+label pizda:
+        a "Пизда"
+        jump dialogpizda
+
+label dialog_yeban:
+    scene fon
+    show matwey poxyi
+
+    m "Сам такой"
+    m "Подставляй попочку)"
+    jump rrr
+
+label dialogpizda:
+    scene fon
+    show matwey poxyi
+    m "Чья"
+
+    scene fon andrei
+    show andrei lol
+    a "Твоей жирной мамаши"
+
+    scene fon
+    show matwey poxyi
+    m "Ты чо про мать сказал сука эдакая"
+
+    scene fon andrei
+    show andrei lol
+    a "Я говорю что я ее трахал во все щели, уебок вонючий"
+
+    scene fon
+    show matwey poxyi
+    m "Ну все, ты напросился"
+    jump rrr
+
+label rrr:
+    scene fon
+    show matwey poxyi
+
+    m "Дальше думай сам сука сюжет"
+
+
+
+
+
+
 
     return
