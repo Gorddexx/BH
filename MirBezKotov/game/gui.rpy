@@ -86,7 +86,7 @@ define gui.title_text_size = 50
 ## Главное и игровое меню. #####################################################
 
 ## Изображения, используемые в главном и игровом меню.
-define gui.main_menu_background = "gui/fotomenu.png"
+define gui.main_menu_background = "gui/main_menu.png"
 define gui.game_menu_background = "gui/game_menu.png"
 
 
@@ -124,7 +124,7 @@ define gui.namebox_borders = Borders(5, 5, 5, 5)
 
 ## Если True, фон текстового окна будет моститься (расширяться по эффекту
 ## плитки). Если False, фон текстового окна будет фиксированным.
-define gui.namebox_tile = False
+define gui.namebox_tile = True
 
 
 ## Размещение диалога по отношению к текстовому окну. Это могут быть целые
