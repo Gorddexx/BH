@@ -1,0 +1,36 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 35, in script
+    window show fon
+  File "renpy/common/000window.rpy", line 155, in execute_window_show
+    trans = eval(p)
+  File "game/script.rpy", line 35, in <module>
+    window show fon
+NameError: name 'fon' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 35, in script
+    window show fon
+  File "renpy/ast.py", line 2015, in execute
+    self.call("execute")
+  File "renpy/ast.py", line 2003, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "renpy/statements.py", line 278, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000window.rpy", line 155, in execute_window_show
+    trans = eval(p)
+  File "renpy/python.py", line 2276, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "renpy/python.py", line 2269, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 35, in <module>
+    window show fon
+NameError: name 'fon' is not defined
+
+Windows-10-10.0.19041
+Ren'Py 7.4.11.2266
+Мастер фантазий или мир без котов Pre-Alpha 1.0
+Tue Jun 14 12:11:58 2022
