@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 172, in script
+    return
+  File "game/script.rpy", line 172, in script
+    return
+Exception: Unexpected return during the init phase.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "renpy/bootstrap.py", line 331, in bootstrap
+    renpy.main.main()
+  File "renpy/main.py", line 560, in main
+    renpy.game.context().run(node)
+  File "game/script.rpy", line 172, in script
+    return
+  File "game/script.rpy", line 172, in script
+    return
+  File "renpy/ast.py", line 1563, in execute
+    raise Exception("Unexpected return during the init phase.")
+Exception: Unexpected return during the init phase.
+
+Windows-10-10.0.19041
+Ren'Py 7.4.11.2266
+Мастер фантазий или мир без котов Pre-Alpha 1.0
+Tue Jun 14 17:30:39 2022
