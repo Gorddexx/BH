@@ -21,6 +21,8 @@ label start:
 
     m "А хотя... похуй)"
 
+    scene fon andrei
+
     show andrei lol
 
     a "Всмысле похуй?"
