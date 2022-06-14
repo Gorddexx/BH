@@ -301,17 +301,17 @@ screen navigation():
 
         if main_menu:
 
-            textbutton _("Начать") action Start()
+            textbutton _("Начать еблю") action Start()
 
         else:
 
-            textbutton _("История") action ShowMenu("history")
+            textbutton _("История пиздежа") action ShowMenu("history")
 
-            textbutton _("Сохранить") action ShowMenu("save")
+            textbutton _("Сохранить дик пик") action ShowMenu("save")
 
-        textbutton _("Загрузить") action ShowMenu("load")
+        textbutton _("Загрузить дик пик") action ShowMenu("load")
 
-        textbutton _("Настройки") action ShowMenu("preferences")
+        textbutton _("Настройки члена") action ShowMenu("preferences")
 
         if _in_replay:
 
@@ -580,7 +580,7 @@ style about_label_text:
 ## как они почти одинаковые, оба реализованы по правилам третьего экрана —
 ## file_slots.
 ##
-## https://www.renpy.org/doc/html/screen_special.html#save 
+## https://www.renpy.org/doc/html/screen_special.html#save
 
 screen save():
 
