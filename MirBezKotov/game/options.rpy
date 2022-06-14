@@ -23,7 +23,7 @@ define gui.show_name = True
 
 ## Версия игры.
 
-define config.version = "Pre-Alpha 1.0"
+define config.version = "мне похуй если что"
 
 
 ## Текст, помещённый в экран "Об игре". Поместите текст между тройными скобками.
