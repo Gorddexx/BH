@@ -1,5 +1,8 @@
 ﻿# Вы можете расположить сценарий своей игры в этом файле.
 
+
+
+
 # Определение персонажей игры.
 define matwei = Character('Матвей', color="#ac1ba3")
 define andrei = Character('Андрей', color="#44ece2")
@@ -8,8 +11,26 @@ define andrei = Character('Андрей', color="#44ece2")
 # Например, сцену bg room можно вызвать файлом "bg room.png",
 # а eileen happy — "eileen happy.webp", и тогда они появятся в игре.
 
+init:
+    image logos = "images/logo.png"
+
 # Игра начинается здесь:
+label splashscreen:
+     scene black with dissolve
+     pause 2
+     show logos:
+         yalign .5 subpixel True
+         xalign .5 subpixel True
+     pause 3
+     show text"ПРЕДСТАВЛЯЮТ":
+        yalign .5 subpixel True
+        xalign .5 subpixel True
+     pause 3
+     return
+
+
 label start:
+    jump splashscreen
     stop music
 # Что-то в тему к ниже тексту сцена
     "Говорят, что любовь самое лучшее чувство на земле."

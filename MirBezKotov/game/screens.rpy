@@ -301,17 +301,17 @@ screen navigation():
 
         if main_menu:
 
-            textbutton _("Начать еблю") action Start()
+            textbutton _("Начать") action Start()
 
         else:
 
-            textbutton _("История пиздежа") action ShowMenu("history")
+            textbutton _("История") action ShowMenu("history")
 
-            textbutton _("Сохранить дик пик") action ShowMenu("save")
+            textbutton _("Сохранить") action ShowMenu("save")
 
-        textbutton _("Загрузить дик пик") action ShowMenu("load")
+        textbutton _("Загрузить") action ShowMenu("load")
 
-        textbutton _("Настройки члена") action ShowMenu("preferences")
+        textbutton _("Настройки") action ShowMenu("preferences")
 
         if _in_replay:
 
