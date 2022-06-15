@@ -15,18 +15,6 @@ init:
     image logos = "images/logo.png"
 
 # Игра начинается здесь:
-label splashscreen:
-     scene black with dissolve
-     pause 2
-     show logos:
-         yalign .5 subpixel True
-         xalign .5 subpixel True
-     pause 3
-     show text"ПРЕДСТАВЛЯЮТ":
-        yalign .5 subpixel True
-        xalign .5 subpixel True
-     pause 3
-     return
 
 
 label start:

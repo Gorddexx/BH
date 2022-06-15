@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 23: expected 'comma or end of line' not found.
-    transform logos:
-    ^
+File "game/splash.rpy", line 23: end of line expected.
+    hide text,logo with dissolve
+             ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Wed Jun 15 15:29:16 2022
+Wed Jun 15 16:00:59 2022
