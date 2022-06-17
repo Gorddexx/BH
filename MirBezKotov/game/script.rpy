@@ -6,7 +6,7 @@
 # Определение персонажей игры.
 define matwei = Character('Матвей', color="#ac1ba3")
 define andrei = Character('Андрей', color="#44ece2")
-define maria_d = Character('Мария Дмитриевна', color="#ad655f")
+define maria_dmi = Character('Мария Дмитриевна', color="#ad655f")
 # Вместо использования оператора image можете просто
 # складывать все ваши файлы изображений в папку images.
 # Например, сцену bg room можно вызвать файлом "bg room.png",

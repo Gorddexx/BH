@@ -1,49 +1,48 @@
-Wed Jun 15 16:48:46 2022
+Thu Jun 16 14:14:47 2022
 Windows-10-10.0.19041
 Ren'Py 7.4.11.2266
  
 
-Bootstrap to the start of init.init took 0.15s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.03s
-Loading script took 0.27s
-Loading save slot metadata. took 0.02s
+Bootstrap to the start of init.init took 0.26s
+Early init took 0.01s
+Loader init took 0.03s
+Loading error handling took 0.05s
+Loading script took 0.31s
+Loading save slot metadata. took 0.03s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.08s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
+Running init code took 0.20s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
 Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Pussylord21\\AppData\\Roaming/RenPy/backups\\MirBezKotov':
-Dump and make backups. took 0.11s
+Dump and make backups. took 0.17s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
+Initial gc. took 0.06s
+DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.36s
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.06s
+Init translation took 0.10s
 Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.05s
-Prepare screens took 0.10s
+Load screen analysis took 0.05s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.17s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
+Save bytecode. took 0.00s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.11s
+Interface start took 0.18s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
 Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce GTX 750 Ti/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 512.95'
+Vendor: 'ATI Technologies Inc.'
+Renderer: 'AMD Radeon(TM) R2 Graphics'
+Version: '4.6.14830 Compatibility Profile Context 21.09.04.02 27.20.20904.2001'
 Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1739, 978) drawable=(1739, 978)
+Screen sizes: virtual=(1280, 720) physical=(1738, 978) drawable=(1738, 978)
 Maximum texture size: 4096x4096
